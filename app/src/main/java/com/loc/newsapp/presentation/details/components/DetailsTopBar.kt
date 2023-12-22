@@ -73,8 +73,8 @@ fun DetailsTopBar(
 fun DetailsTopBarPreview() {
     NewsAppTheme(dynamicColor = false) {
         DetailsTopBar(
-            onShareClick = { /*TODO*/ },
-            onBookMarkClick = { /*TODO*/ },
+            onShareClick = { },
+            onBookMarkClick = { },
             onBrowsingClick = {}) {
 
         }
